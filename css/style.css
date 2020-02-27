@@ -10,9 +10,16 @@
   background-color: #ffc0cb;
   height: 200px;
   border: black 2px solid;
+  position: relative;
 }
 
 .nested{
   background-color: #e27778;
   border: white 1px solid;
+}
+p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
